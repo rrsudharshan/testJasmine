@@ -78,8 +78,7 @@ describe("simple test demo", () => {
                 expect(1).to.equal(1);
                 val = "test passed succesfully";
                 TestStep();
-            throw new Error(err);
-
+            expect(0).to.equal(1);
         }
 
 
